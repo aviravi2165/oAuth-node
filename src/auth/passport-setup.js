@@ -20,9 +20,9 @@ passport.use(
   new GoogleStrategy(
     {
       clientID:
-        "968381799429-2140bae9m6dmikslb207mdmssg0qtvsp.apps.googleusercontent.com",
+        "oAUTH Client ID",
       clientSecret:
-        "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",
+        "CLIENT SECRET",
       callbackURL: `${process.env.URL}:${process.env.PORT}/google/callback`,
       passReqToCallback: true,
     },
